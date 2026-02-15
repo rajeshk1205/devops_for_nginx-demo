@@ -2,7 +2,8 @@
 
 
 sudo apt-get update
-sudo apt-get installl nginx
+sudo apt-get install nginx
 
-sudo apt restart nginx
+sudo systemctl start nginx
+
 
